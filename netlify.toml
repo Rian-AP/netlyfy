@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/dynmap/*"
+  to = "http://89.35.130.15:25168/:splat"
+  status = 200
+  force = true
