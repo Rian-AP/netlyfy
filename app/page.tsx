@@ -164,7 +164,7 @@ export default function MineshishLanding() {
               </Button>
             </div>
             <iframe
-              src="http://89.35.130.15:25168/"
+              src="/dynmap/"
               className="w-full h-[calc(100%-60px)]"
               title="Mineshish Interactive Map"
             />
@@ -354,7 +354,7 @@ export default function MineshishLanding() {
                 </div>
                 <div className="relative w-full h-96 rounded-2xl overflow-hidden shadow-lg">
                   <iframe
-                    src="http://89.35.130.15:25168/"
+                    src="/dynmap/"
                     className="w-full h-full"
                     title="Mineshish Interactive Map"
                   />

@@ -3,3 +3,9 @@
   to = "http://89.35.130.15:25168/:splat"
   status = 200
   force = true
+  headers = {X-From = "Netlify"}
+
+[[headers]]
+  for = "/dynmap/*"
+  [headers.values]
+    X-Frame-Options = "ALLOWALL"
