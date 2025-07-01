@@ -36,7 +36,7 @@ export default function MineshishLanding() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
   const [mapExpanded, setMapExpanded] = useState(false)
-  const serverIP = "5.mineshish.online"
+  const serverIP = "mineshish.online"
 
   useEffect(() => {
     const savedTheme = (localStorage.getItem("theme") as "light" | "dark") || "dark"
