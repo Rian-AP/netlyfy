@@ -457,7 +457,7 @@ export default function MineshishLanding() {
                   <div className="flex gap-3">
                     <span className="text-red-500 font-bold text-lg">2.</span>
                     <p className="text-slate-700 dark:text-slate-300 leading-relaxed">
-                      <strong>Запрещены любые виды читов</strong>: авто-фиш, fullbright, баритон. Быстрая постройка с
+                      <strong>Запрещены любые виды читов</strong>: авто-фиш, баритон. Быстрая постройка с
                       помощью Litematica разрешена.
                     </p>
                   </div>
